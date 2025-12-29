@@ -96,3 +96,5 @@ app.add_handler(CommandHandler("restart", restart))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, answer))
 
 app.run_polling()
+python-telegram-bot==20.7
+python bot.py
